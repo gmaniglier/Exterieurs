@@ -15,7 +15,7 @@
 }
 else // Sinon, on affiche un message d'erreur
 {
-	echo '<p>Mot de passe incorrect</p>';
+	echo '<p>Mot de passe incorrect !</p>';
 }
 ?>
     

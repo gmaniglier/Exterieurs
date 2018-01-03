@@ -1,7 +1,6 @@
 drop view if exists v_nbvalid;
 create view v_nbvalid as select count(Id_unique) as nbvalid from outsiders where datefin >= curdate();
 
-
 drop view if exists v_nboutdated;
 create view v_nboutdated as select count(Id_unique) as nboutdated from outsiders where datefin < curdate();
 
